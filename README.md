@@ -1,11 +1,11 @@
 # HackertoberFest2022-Repostory_Newbie
 This Repository is made for all those who are Newbie in the Field of Open Source and wants to kick off their journey as an Open Source Contributor through Hacktober. Kindly refrain from making Multiple in-line Pull requests and getting marked Spam!
 
-![image](https://user-images.githubusercontent.com/83905981/193395333-8f63875b-f578-4371-8376-56279e3bc46f.png)
-
-# Rules
+# Rules 
 
 Don't use filthy words and be welcome for beginners and other people in this community.
+
+![image](https://user-images.githubusercontent.com/83905981/193395333-8f63875b-f578-4371-8376-56279e3bc46f.png)
 
 Hacktober is Digital Ocean's Annual Event that encourages people to contribute to Open Source throughout October. Much of Modern Tech Infrastructure - including some of Digital Ocean's own Products - Relies on Open Source projects built and maintained by passionate people. Hacktober is all about giving back to those projects, sharpening skills, and celebrating all things and open source, especially the people that make open source so special.
 
