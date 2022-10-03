@@ -1,0 +1,41 @@
+WORKNG DIRECTORY/ STAGING AREA/ LOCAL REPOSITORY/ REMOTE REPOSITORY 
+
+git init
+
+git add filenames
+
+git add . (all files add together)
+
+git commit -m "chapter 1"
+
+git log : to see the changes
+
+git status : what has been commited
+
+git diff filename :changes made to particular file
+
+git checkout filenam : to revert back to the previous version of file
+
+git remote add origin 'https link' : for adding remote files to github repository
+
+git push -u origin master : for pushing files to github repo
+
+git push --force origin master (for pushing another commit)
+
+Local repository is .git and Remote repository is Github
+
+touch .gitignore : to create hidden files/ add files like api keys to hide
+
+git rm --cached -r . : all added files removes from git add .
+
+git clone 'link' : to clone open source github projects
+
+master branch for main project/ branches for experimental changes then merge takes place
+
+git branch: to check at which you are present
+
+git branch 'branch name': to create a branch
+
+git checkout 'branch name' : to change a particular branch
+
+forking is done to make a copy of someone's repo/duplicate of remote repo  inorder to contribute to open source projects
