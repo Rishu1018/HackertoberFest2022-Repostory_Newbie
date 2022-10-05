@@ -85,7 +85,7 @@ int main()
                     break;
                 case 3:
                     res=SUB(a, b);
-                    prnitf("\nThe result of subtraction is : %.2f", res);
+                    printf("\nThe result of subtraction is : %.2f", res);
                     break;
                 case 4:
                     res=MUL(a, b);
