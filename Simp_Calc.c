@@ -23,12 +23,23 @@ void DIV(float a, float b)
 {
     float res;
     res=a/b;
+    if(b==0)
+    {
+        printf("Can't Divide by zero.");
+        return;
+    }
+    if(a==0)
+    {
+        printf("\nResult is 0");
+        return;
+    }
     if(a>=b)
     {
         printf("\nThe result is : %.2f", res);
     }
     else
     {
+
         printf("\nFractional Result is: %.0f/%.0f", a, b);
         printf("\nDecimal Result is : %.2f", res);
     }
