@@ -14,6 +14,11 @@ float DIFF(float a, float b)
         return b-a;
 }
 
+float SUB(float a, float b)
+{
+    return a-b;
+}
+
 float MUL(float a, float b)
 {
     return a*b;
@@ -61,10 +66,11 @@ int main()
             printf("\nSelect the operation:\n");
             printf("1. Addition\n");
             printf("2. Difference\n");
-            printf("3. Multiply\n");
-            printf("4. Divide\n");
-            printf("5. Change Inputs\n");
-            printf("6. Exit\n");
+            printf("3. Subtract\n");
+            printf("4. Multiply\n");
+            printf("5. Divide\n");
+            printf("6. Change Inputs\n");
+            printf("7. Exit\n");
             printf("Enter your choice : ");
             scanf("%d", &choice);
             switch (choice)
@@ -78,16 +84,20 @@ int main()
                     printf("\nThe result of difference is : %.2f", res);
                     break;
                 case 3:
+                    res=SUB(a, b);
+                    prnitf("\nThe result of subtraction is : %.2f", res);
+                    break;
+                case 4:
                     res=MUL(a, b);
                     printf("\nThe result of multiplication is : %.2f", res);
                     break;
-                case 4:
+                case 5:
                     DIV(a, b);
                     break;
-                case 5:
+                case 6:
                     t=0;
                     break;
-                case 6:
+                case 7:
                     exit(0);            
                 default:
                     printf("\nWrong Choice! try Again\n");
