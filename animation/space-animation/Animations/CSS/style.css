@@ -1,7 +1,7 @@
 /* Setting the elements on the page to apply animations */
 body{
-    background-image: url(../images/2352.jpg),url(../images/5603526_1876.jpg);
-    background-repeat: no-repeat,repeat;
+    background-image: url(../images/5603526_1876.jpg);
+    background-repeat: repeat-x ;
 }
 .rocket-element{
     height: 240px;
